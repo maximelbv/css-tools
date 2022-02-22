@@ -1,0 +1,47 @@
+#inspirations {
+    color: white;
+    background: #1a1a1a;
+}
+
+main {
+    background: #f2f2f2;
+}
+
+.inspirationsCtn {
+    margin: auto;
+    padding: 50px 20px;
+    max-width: 1440px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.inspirationsCtn a {
+    padding: 0;
+    padding-bottom: 20px;
+    border-radius: 0;
+
+    box-shadow:
+        3.4px 3.4px 2.7px rgba(0, 0, 0, 0.009),
+        7.7px 7.7px 6.7px rgba(0, 0, 0, 0.016),
+        13.8px 13.8px 12.6px rgba(0, 0, 0, 0.02),
+        23.9px 23.9px 21.9px rgba(0, 0, 0, 0.02),
+        45.4px 45.4px 38.2px rgba(0, 0, 0, 0.016),
+        100px 100px 80px rgba(0, 0, 0, 0.05)
+    ;
+
+
+}
+
+.inspirationsCtn .title {
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.inspirationsCtn .description {
+    padding-left: 10px;
+}
+
+.image {
+    width: 100%;
+}

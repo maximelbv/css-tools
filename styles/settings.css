@@ -1,0 +1,64 @@
+* {
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+}
+
+body {
+	width: 100%;
+	margin: auto;
+}
+
+
+.card {
+	display: block;
+	background: white;
+	padding: 20px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.title {
+	font-weight: 600;
+	color: #252525;
+} 
+
+.description {
+	color: grey;
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+.container {
+	width: 80%;
+	margin: 100px auto;
+	position: relative;
+	display: grid;
+	grid-gap: 25px;
+	column-gap: 25px;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.container h2 {
+	position: absolute;
+	top: -50px;
+	left: 10px;
+}
+
+.nav {
+	display: flex;
+	margin: auto;
+}
+
+.nav a {
+	color: #252525;
+	text-decoration: none;
+	width: 150px;
+	height: 50px;
+	border-radius: 5px;
+	margin: 0 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 600;
+
+}

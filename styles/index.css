@@ -1,0 +1,75 @@
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../assets/fonts/Gilroy/Gilroy-ExtraBold.otf');
+}
+
+#index {
+    color: white;
+    background: #1a1a1a;
+}
+
+main {
+    background: #f2f2f2;
+}
+
+.mainCtn {
+    margin: auto;
+    padding: 0 20px;
+    max-width: 1440px;
+}
+
+.hero {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.hero h1 {
+    font-family: 'Gilroy' !important;
+    font-size: 75px;
+}
+
+.hero span {
+    font-family: 'Gilroy' !important;
+    font-size: 75px;
+    background: rgb(142, 209, 248);
+    padding: 0 5px;
+}
+
+.browse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.browseTitle {
+    font-size: 30px;
+    font-family: 'Gilroy' !important;
+}
+
+.browseList {
+    margin: 40px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style-type: none;
+}
+
+.browseList a {
+    height: 150px;
+    width: 250px;
+    margin: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-family: 'Gilroy' !important;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+#browseTools {background: rgba(241, 47, 47, 0.5);}
+#browseStock {background: rgba(255, 170, 32, 0.5);}
+#browseInspirations {background: rgba(75, 190, 40, 0.493);}
